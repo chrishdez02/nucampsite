@@ -32,7 +32,7 @@
                 </div>
                 <div class="col-md-4 col-xl-2 align-self-center ">
                     <a href="#reserveForm">
-                        <button class="btn btn-info btn-lg">Reserve Campsite</button>
+                        <button class="btn btn-info text-white btn-lg">Reserve Campsite</button>
                     </a>
                     
                 </div>
@@ -109,23 +109,29 @@
     
                                 <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
                                 
-                                        <select name="numCampers" id="numCampers" class="form-control col-sm-6">
-                                                <option selected>Select...</option>
-                                                <option value="blue">1</option>
-                                                <option value="orange">2</option>
-                                                <option value="yellow">3</option>
-                                                <option value="yellow">4</option>
-                                                <option value="yellow">5</option>
-                                                <option value="yellow">6</option>
-                                        </select>
+                                    <div class="col-sm-6">
+                                            <select name="numCampers" id="numCampers" class="form-control">
+                                                    <option selected>Select...</option>
+                                                    <option value="blue">1</option>
+                                                    <option value="orange">2</option>
+                                                    <option value="yellow">3</option>
+                                                    <option value="yellow">4</option>
+                                                    <option value="yellow">5</option>
+                                                    <option value="yellow">6</option>
+                                            </select>
+                                    </div> 
+
                                 
                                 
                             </div>
 
                             <!-- row two -->
                             <div class="form-group row">
-                                <label for="date" class="col-sm-6 col-form-label">Date</label>
-                                <input type="date" id="date" name="date" placeholder="Date" class="col form-control">
+                                <label for="date" class="col col-form-label">Date</label>
+                                <div class="col-sm-6">
+                                        <input type="date" id="date" name="date" placeholder="Date" class="col form-control">
+                                </div>    
+                                
                             </div>
 
                             <!-- row two -->
