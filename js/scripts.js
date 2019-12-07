@@ -12,5 +12,19 @@
                     $("#carouselButton").children("i").addClass("fa-pause"); 
                 }
             });
+
+
+        $("#reserve-campsite").click(function(){
+            $("#reserveModal").modal({
+                show: true
+            })
+        })
+
+        $("#login-btn").click(function(){
+            $("#loginModal").modal({
+                show: true
+            })
+        })
+
         });
     
